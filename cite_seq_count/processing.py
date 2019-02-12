@@ -41,7 +41,6 @@ def find_best_match(TAG_seq, tags, maximum_distance):
         if score <= best_score:
             best_score = score
             best_match = name
-            return(best_match)
     return(best_match)
 
 
